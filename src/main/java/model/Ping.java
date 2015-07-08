@@ -7,7 +7,7 @@ import java.net.UnknownHostException;
 /**
  * Created by Paul on 05/07/15.
  */
-public class Ping implements Serializable{
+public class Ping implements Serializable {
     private String pingResult;
     private InetAddress sourceAddress;
     private InetAddress destinationAddress;
